@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-    temp = self.split(%r{[?.!]}) #.length
-    puts temp
+    temp = self.split(%r{[?.!]}) #
+    puts temp.length
     temp
   end
 end
