@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     temp = self.split(%r{[?.!]}).length
+    puts temp
     temp
   end
 end
